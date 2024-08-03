@@ -1,0 +1,79 @@
+
+.popupContent{
+    padding-top: 5%;
+}
+
+.siteImgCont{
+    width: 100%;
+    height: 25vh;
+}
+.siteImgCont img{
+    width: 100%;
+    height: 100%;
+}
+
+.cont1{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    h1{
+        width: 50%;
+        align-content: center;
+        font-size: 1.25rem;
+    }
+    .weather{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .weatherDeets{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p{
+                margin: 0;
+            }
+        }
+    }
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #dddddd;
+}
+
+.cont2{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-size: 1rem;
+    }
+    .btns{
+        display: flex;
+        gap: 0.3rem;
+        img{
+            width: 1.5rem;
+        }
+    }
+}
+
+button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.fullDeets{
+    display: flex;
+    justify-content: right;
+    .deets{
+        color: blue;
+    }
+}
+
+p{
+    margin: 0px;
+}
