@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.mapContainer{
+  position: relative;
+}
+
+
 .leaflet-control-attribution.leaflet-control {
   display: none;
 }
+.leaflet-control-container { 
+  position: absolute; 
+  right: 56px;
+  bottom: 8rem;
+} 
